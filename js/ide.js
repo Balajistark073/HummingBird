@@ -1,4 +1,4 @@
-const API_KEY = "YOUR-RAPIDAPI-KEY"; // Replace with your RapidAPI key
+const API_KEY = "96d3c5645emshb7d88e68d079fedp16953bjsn4dd7a189dfff"; 
 
         const AUTH_HEADERS = API_KEY ? {
             "X-RapidAPI-Key": API_KEY
@@ -41,7 +41,7 @@ const API_KEY = "YOUR-RAPIDAPI-KEY"; // Replace with your RapidAPI key
         xhr.setRequestHeader('content-type', 'application/json');
         xhr.setRequestHeader('x-compile', 'rapidapi');
         xhr.setRequestHeader('Content-Type', 'application/json');
-        xhr.setRequestHeader('X-RapidAPI-Key', 'c33b4ce1a1msh6c5562705e3a128p1f77f3jsncd4c455cbd79');
+        xhr.setRequestHeader('X-RapidAPI-Key', '96d3c5645emshb7d88e68d079fedp16953bjsn4dd7a189dfff');
         xhr.setRequestHeader('X-RapidAPI-Host', 'code-compiler10.p.rapidapi.com');
         
         xhr.send(data);
